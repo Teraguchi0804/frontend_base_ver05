@@ -1,0 +1,31 @@
+{
+  "description": "description",
+  "keyword": "",
+  "ogpImgPath": "",
+  "copy": "",
+  "color": "",
+  "top": {
+    "title": "",
+    "description": "",
+    "keyword": "",
+    "copy": "",
+    "color": "",
+    "fb": {
+      "tit": "",
+      "des": "",
+      "img": "",
+      "siteName": "",
+      "type": "website",
+      "url": ""
+    },
+    "tw": {
+      "card": "summary_large_image",
+      "creator": "",
+      "des": "",
+      "img": "",
+      "siteName": "",
+      "tit": "",
+      "url": ""
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+$colorBlack: #000;
+$colorWhite: #fff;
+$yellow : #ffe600;
+$headerTrans: 0.1s ease-in-out;
+$minW : 1000px;
+$minW-newsList : 960px;
+$blue : #006399;
+$opacity : 0.7;
+
+@font-face {
+  font-family: 'NotoSansCJKjpRegular';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../../resource/fonts/NotoSansCJKjp-Regular.ttf') format('truetype'),
+    url('../../resource/fonts/NotoSansCJKjp-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjpMedium';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../../resource/fonts/NotoSansCJKjp-Medium.ttf') format('truetype'),
+    url('../../resource/fonts/NotoSansCJKjp-Mediumr.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-Black';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../../resource/fonts/NotoSansCJKjp-Black.ttf') format('truetype'),
+    url('../../resource/fonts/NotoSansCJKjp-Black.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../../resource/fonts/NotoSansCJKjp-Bold.ttf') format('truetype'),
+    url('../../resource/fonts/NotoSansCJKjp-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@mixin sansJpRegular {
+  font-family: 'NotoSansCJKjpRegular', sans-serif;
+}
+
+@mixin sansJpMedium {
+  font-family: 'NotoSansCJKjpMedium', sans-serif;
+}
+
+@mixin sansJpBlack {
+  font-family: 'NotoSansCJKjp-Black', sans-serif;
+}
+
+@mixin sansJpBold {
+  font-family: 'NotoSansCJKjp-Bold', sans-serif;
+}
+
+@mixin gilroyExtraBold {
+  font-family:  Gilroy-ExtraBold, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}

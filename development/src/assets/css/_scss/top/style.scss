@@ -1,0 +1,26 @@
+@charset "utf-8";
+/**
+  TOPページ
+ */
+
+// common
+@import "../init/import";
+
+// parts
+@import "../parts/loading";
+@import "../parts/header";
+@import "../parts/footer";
+
+#wrapper {
+
+}
+
+#top {
+
+}
+
+@media screen and (max-width: 768px) {
+  #top {
+
+  }
+}
